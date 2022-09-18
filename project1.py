@@ -16,7 +16,7 @@ while i<5:
     c=random.choice(name)
     print(c)
     #s=set(c)     
-    if (c)==D.get(input("Arrange the letters to form a valid word\n:")): #(to stop the error when we pass incorect key we 
+    if (c)==D.get(input("Arrange the letters to form a valid word:\n").casefold()): #(to stop the error when we pass incorect key we 
                                                                           # can use (.get) after dictinary name then pass key.)
             print("correct")
             print()
