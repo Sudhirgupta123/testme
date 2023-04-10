@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-image: url("/image/foods.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.register{
+    text-align:center;
+    border:#f0eeee;
+    background-color: rgba(0,0,0,0.5);
+    margin: 10rem 58rem;
+    border-radius:40px;
+    box-shadow:2px 2px 15px rgba(255,255,255,0.3);
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+}
+
+.register h2{
+  color: #f0eeee;
+}
+#register label{
+     padding-right: 230px;
+     
+     color: #fafef3;
+}
+#name{
+    padding:12px;
+    margin-bottom:21px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+#Gender{    
+    padding:12px;
+    margin-bottom:20px;
+    color: #f0eeee;
+   position: relative;
+}
+#male{
+    color: #f0eeee;
+}
+#button{
+    padding: 12px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius:80px;
+}
+#button:hover{
+    background-color: black;
+    color: #f0eeae;
+}
+::placeholder{
+    color: #000;
+}
+textarea,
+input#name{
+    width: 300px;
+}
+textarea{
+    resize:none;
+}
+
+
